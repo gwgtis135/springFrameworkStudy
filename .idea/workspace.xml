@@ -5,19 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d703dbc-a22c-41b5-9cc0-34a1535ca074" name="변경" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hello_spring/HelloSpringApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hello_spring/controller/controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hello_spring/domin/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hello_spring/repository/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hello_spring/repository/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hello/hello_spring/service/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/hello-static.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello-template.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/hello/hello_spring/repository/MemoryMemberRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hello_spring/HelloSpringApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hello_spring/controller/controller$Hello.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hello_spring/controller/controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hello_spring/domin/Member.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hello_spring/repository/MemberRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/hello/hello_spring/repository/MemoryMemberRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/hello-static.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/hello-template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/hello.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/hello/hello_spring/repository/MemoryMemberRepositoryTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,26 +110,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.HelloSpringApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.hello-spring [:hello.hello_spring.HelloSpringApplication.main()].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.hello-spring.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.All in hello-spring.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemoryMemberRepositoryTest.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.MemoryMemberRepositoryTest.findAll.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MemoryMemberRepositoryTest.findByName.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.hello.hello_spring in hello-spring.test.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.hello.hello_spring.repository in hello-spring.test.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/study/hello-spring/build.gradle&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.HelloSpringApplication.executor": "Run",
+    "Gradle.hello-spring [:hello.hello_spring.HelloSpringApplication.main()].executor": "Run",
+    "Gradle.hello-spring.executor": "Run",
+    "JUnit.All in hello-spring (1).executor": "Run",
+    "JUnit.All in hello-spring.executor": "Run",
+    "JUnit.MemoryMemberRepositoryTest.executor": "Debug",
+    "JUnit.MemoryMemberRepositoryTest.findAll.executor": "Run",
+    "JUnit.MemoryMemberRepositoryTest.findByName.executor": "Run",
+    "JUnit.hello.hello_spring in hello-spring.test.executor": "Run",
+    "JUnit.hello.hello_spring.repository in hello-spring.test.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/study/hello-spring/build.gradle",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.All in hello-spring (1)">
+}]]></component>
+  <component name="RunManager" selected="Application.HelloSpringApplication">
+    <configuration name="HelloSpringApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hello.hello_spring.HelloSpringApplication" />
+      <module name="hello-spring.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hello.hello_spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in hello-spring (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-spring" />
       <option name="PACKAGE_NAME" value="" />
@@ -161,22 +176,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryMemberRepositoryTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hello.hello_spring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hello.hello_spring.repository" />
-      <option name="MAIN_CLASS_NAME" value="hello.hello_spring.repository.MemoryMemberRepositoryTest" />
-      <option name="METHOD_NAME" value="findByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="hello.hello_spring.repository in hello-spring.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-spring.test" />
       <extension name="coverage">
@@ -193,11 +192,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HelloSpringApplication" />
+        <item itemvalue="JUnit.hello.hello_spring.repository in hello-spring.test" />
         <item itemvalue="JUnit.All in hello-spring (1)" />
         <item itemvalue="JUnit.All in hello-spring" />
-        <item itemvalue="JUnit.hello.hello_spring.repository in hello-spring.test" />
         <item itemvalue="JUnit.MemoryMemberRepositoryTest.findAll" />
-        <item itemvalue="JUnit.MemoryMemberRepositoryTest.findByName" />
       </list>
     </recent_temporary>
   </component>
